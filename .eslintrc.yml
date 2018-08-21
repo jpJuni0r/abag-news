@@ -1,0 +1,11 @@
+parser: babel-eslint
+extends:
+  - airbnb
+  - plugin:react/recommended
+  - plugin:flowtype/recommended
+plugins:
+  - react
+  - react-native
+  - eslint-plugin-flowtype
+rules:
+  react/jsx-filename-extension: 0

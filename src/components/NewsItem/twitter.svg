@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="34" viewBox="0 0 36 34">
+    <defs>
+        <path id="a" d="M674.15 4550.13c-.82.36-1.7.6-2.61.72a4.56 4.56 0 0 0 2-2.52 9.1 9.1 0 0 1-2.89 1.1 4.54 4.54 0 0 0-7.74 4.15 12.9 12.9 0 0 1-9.37-4.75 4.52 4.52 0 0 0 1.4 6.07 4.53 4.53 0 0 1-2.05-.57v.06c0 2.2 1.57 4.04 3.64 4.45a4.55 4.55 0 0 1-2.05.08 4.55 4.55 0 0 0 4.25 3.16 9.12 9.12 0 0 1-6.73 1.88 12.86 12.86 0 0 0 6.97 2.04c8.35 0 12.92-6.92 12.92-12.93v-.59a9.23 9.23 0 0 0 2.26-2.35z"/>
+        <mask id="c" width="2" height="2" x="-1" y="-1">
+            <path fill="#fff" d="M652 4548h22.15v18H652z"/>
+            <use xlink:href="#a"/>
+        </mask>
+        <filter id="b" width="58.15" height="58" x="634" y="4538" filterUnits="userSpaceOnUse">
+            <feOffset dy="4" in="SourceGraphic" result="FeOffset1023Out"/>
+            <feGaussianBlur in="FeOffset1023Out" result="FeGaussianBlur1024Out" stdDeviation="3.2 3.2"/>
+        </filter>
+    </defs>
+    <g transform="translate(-645 -4544)">
+        <g filter="url(#b)">
+            <use fill="none" stroke-opacity=".2" stroke-width="0" mask="url(&quot;#c&quot;)" xlink:href="#a"/>
+            <use fill="#0f8ec7" fill-opacity=".2" xlink:href="#a"/>
+        </g>
+        <use fill="#0f8ec7" xlink:href="#a"/>
+    </g>
+</svg>
